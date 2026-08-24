@@ -1,5 +1,54 @@
 Absolutely. For the **Desktop PC + Windows + Software Troubleshooting** services in your poster, you can build a very useful **free technician toolkit**. I’d separate it into **diagnostics, Windows installation/recovery, drivers, disk/RAM testing, software deployment, malware cleanup, activation/license recovery, and troubleshooting references**.
 
+### Toolkit by Customer Problem
+| Problem                     | Primary tools                                        | Diagnostic process                                    |
+| --------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
+| **PC won't boot**           | Hiren, SystemRescue, BIOS/UEFI                       | POST → boot device → storage → OS                     |
+| **No display**              | HWiNFO, GPU-Z, physical diagnostics                  | Monitor → cable → GPU → RAM → POST                    |
+| **Very slow PC**            | Task Manager, HWiNFO, CrystalDiskInfo, Autoruns      | CPU/RAM/disk/startup investigation                    |
+| **BSOD**                    | Event Viewer, Reliability Monitor, MemTest86, HWiNFO | Error evidence → drivers → RAM → hardware             |
+| **Windows won't start**     | Hiren, WinRE, SFC, DISM                              | Boot → filesystem → system files → recovery           |
+| **SSD/HDD problem**         | CrystalDiskInfo, SystemRescue                        | SMART → symptoms → backup → replace                   |
+| **RAM problem**             | MemTest86, HWiNFO                                    | Test → isolate module/slot → verify                   |
+| **Driver problem**          | Device Manager, Event Viewer, HWiNFO                 | Identify device → driver → rollback/update            |
+| **Windows Update failure**  | Event Viewer, DISM, SFC, PowerShell                  | Error code → servicing stack/component health         |
+| **Malware/adware**          | Defender, Malwarebytes, AdwCleaner, Autoruns         | Isolate → scan → remove → verify                      |
+| **Software crash**          | Event Viewer, Reliability Monitor, ProcMon           | Reproduce → logs → dependencies/config                |
+| **No Internet**             | ipconfig, ping, nslookup                             | NIC → IP → gateway → Internet → DNS                   |
+| **DNS problem**             | nslookup, ipconfig                                   | DNS server → resolution → connectivity                |
+| **Slow network**            | iPerf3, Wireshark, ping                              | Latency → packet loss → throughput                    |
+| **Wi-Fi problem**           | Windows tools, iPerf3, Wireshark                     | Signal → channel → interference → throughput          |
+| **Network printer problem** | ping, nslookup, PowerShell, printer tools            | IP → reachability → port → driver                     |
+| **HDD → SSD migration**     | CrystalDiskInfo, Clonezilla/Rescuezilla              | Health → backup → clone → boot verification           |
+| **Windows reinstall**       | Ventoy/Rufus + Windows media                         | Backup → installation → drivers → updates             |
+| **Data backup**             | Robocopy/FreeFileSync                                | Identify data → copy → verify                         |
+| **Disk cloning**            | Clonezilla/Rescuezilla                               | Source health → destination capacity → clone → verify |
+
+
+### Physical Technician Toolkit
+| Equipment                   | Priority      | Why                               |
+| --------------------------- | ------------- | --------------------------------- |
+| Precision screwdriver set   | **Must Have** | PC assembly/repair                |
+| ESD wrist strap             | **Must Have** | ESD protection                    |
+| ESD mat                     | Useful        | Bench work                        |
+| 2× quality USB flash drives | **Must Have** | Boot/recovery                     |
+| External SSD                | **Must Have** | Backup/migration                  |
+| SATA-to-USB adapter         | **Must Have** | HDD/SSD access                    |
+| NVMe enclosure              | **Useful**    | NVMe migration                    |
+| USB-to-Ethernet adapter     | **Must Have** | Network diagnosis                 |
+| USB Wi-Fi adapter           | Useful        | Wi-Fi testing                     |
+| Ethernet patch cables       | **Must Have** | Network testing                   |
+| Cable tester                | **Must Have** | LAN troubleshooting               |
+| Crimping tool               | Useful        | Basic cabling                     |
+| Tone tester                 | Buy Later     | Cable tracing                     |
+| POST diagnostic card        | Buy Later     | Advanced hardware troubleshooting |
+| Thermal paste               | **Must Have** | CPU cooler service                |
+| Cleaning brushes            | **Must Have** | Maintenance                       |
+| Electric air blower         | **Must Have** | Dust cleaning                     |
+| Multimeter                  | **Must Have** | Basic electrical diagnostics      |
+
+
+
 ### 🖥️ 1. Windows Installation & Recovery
 
 | Tool / Resource                  | Best use                                                          |
