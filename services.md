@@ -1,10 +1,12 @@
-Below is the **comprehensive master list** for your freelance **System & Network Engineer / Small-Business IT Infrastructure Support** business.
+Yes. Below is the **revised comprehensive service and skill list**, with **all laptop-related services removed**. The scope is strictly **desktop PC + systems + networking + small-business IT infrastructure**.
 
-I’m deliberately separating **services you can sell** from **skills you need to possess**. They overlap, but they are not the same thing.
+# System & Network Engineer Freelance Business
+
+## Comprehensive Services & Skills
 
 ---
 
-# 1. MASTER SERVICE CATALOG
+# 1. SERVICE CATALOG
 
 ## A. Desktop PC Services
 
@@ -24,17 +26,16 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * PSU installation
 * SSD installation
 * HDD installation
-* Additional storage installation
+* NVMe installation
 * Case/fan installation
 * BIOS/UEFI configuration
 * POST testing
 * Hardware stress testing
-* System benchmarking
 * Burn-in testing
 * Cable management
 * Hardware inventory
 
-### Desktop Upgrades
+### Desktop PC Upgrades
 
 * RAM upgrades
 * SSD upgrades
@@ -49,7 +50,7 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * Boot-drive migration
 * Hardware compatibility assessment
 
-### Hardware Diagnostics
+### Desktop Hardware Diagnostics
 
 * No-power diagnosis
 * No-display diagnosis
@@ -59,13 +60,13 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * PSU diagnosis
 * CPU overheating diagnosis
 * GPU diagnosis
-* Motherboard-related diagnosis
+* Motherboard diagnosis
 * Fan/cooling diagnosis
 * USB-device troubleshooting
 * Peripheral troubleshooting
 * Hardware health assessment
 
-### Preventive Maintenance
+### Desktop Preventive Maintenance
 
 * Internal cleaning
 * Dust removal
@@ -77,17 +78,15 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * Cable inspection
 * BIOS/UEFI health check
 * Hardware inventory
-* Preventive maintenance reports
-
-**Excluded:** laptop hardware repair, laptop motherboard repair, mobile repair, microsoldering and board-level electronics repair.
+* Maintenance reports
 
 ---
 
-# 2. Windows Services
+# 2. Windows System Services
 
 ## Windows Installation & Deployment
 
-* Windows 10/11 installation where appropriate
+* Windows installation
 * Windows 11 deployment
 * UEFI/GPT configuration
 * Driver installation
@@ -96,10 +95,11 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * Application installation
 * User-account configuration
 * Local security configuration
-* System configuration
-* Standard desktop setup
 * Business PC deployment
 * PC migration
+* Windows imaging
+* Windows cloning
+* Standard PC configuration
 
 ## Windows Troubleshooting
 
@@ -124,12 +124,12 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * Network configuration problems
 * Printer problems
 * Windows Search problems
-* Windows activation problems
+* Activation problems
 * System corruption
-* Windows recovery
 * Safe Mode troubleshooting
 * System Restore
-* Recovery Environment troubleshooting
+* Windows Recovery Environment
+* Startup Repair
 
 ## Windows Administration
 
@@ -149,7 +149,7 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * Windows Firewall
 * Windows Defender
 * BitLocker
-* Power settings
+* Power management
 * Startup management
 * Remote Desktop
 * PowerShell administration
@@ -160,8 +160,8 @@ I’m deliberately separating **services you can sell** from **skills you need t
 
 ## Linux Installation
 
-* Ubuntu Desktop
-* Ubuntu Server
+* Ubuntu Desktop installation
+* Ubuntu Server installation
 * Linux VM deployment
 * Partitioning
 * Filesystem configuration
@@ -203,7 +203,7 @@ I’m deliberately separating **services you can sell** from **skills you need t
 
 ---
 
-# 4. Software Troubleshooting Services
+# 4. Software Troubleshooting
 
 * Software installation
 * Software configuration
@@ -226,7 +226,7 @@ I’m deliberately separating **services you can sell** from **skills you need t
 
 ---
 
-# 5. Data Migration Services
+# 5. Desktop Data Migration
 
 * HDD → SSD migration
 * SSD → SSD migration
@@ -234,18 +234,17 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * User-profile migration
 * Desktop-to-desktop migration
 * Data transfer
-* Application migration where supported
 * Disk cloning
 * Disk imaging
 * Partition resizing
 * Data verification
 * Migration documentation
 
-**Important:** Data migration should always include a backup/rollback strategy.
+**Important:** Always create a backup before performing migration or cloning.
 
 ---
 
-# 6. Data Recovery & Backup Services
+# 6. Backup & Data Recovery Services
 
 ## Backup
 
@@ -268,34 +267,29 @@ I’m deliberately separating **services you can sell** from **skills you need t
 * RPO definition
 * RTO definition
 * Restore procedures
-* Bare-metal recovery concepts
 * System recovery
 * File recovery
 * Backup documentation
 * Disaster recovery testing
 
-## Data Recovery
+## Basic Data Recovery
 
-For your initial business, restrict this to:
-
-* Accidental deletion recovery using appropriate tools
+* Accidental deletion recovery
 * Backup-based recovery
 * Disk-image recovery
 * File recovery from accessible storage
 
-Do **not** position yourself initially as a professional forensic/data-recovery laboratory.
+Don't initially market yourself as a professional forensic/data-recovery laboratory.
 
 ---
 
-# 7. Networking Services
-
-## Network Installation
+# 7. Network Installation Services
 
 * Small-office LAN installation
 * SOHO network installation
 * Ethernet network setup
 * Router installation
-* Switch installation
+* Managed-switch installation
 * Access Point installation
 * Network printer setup
 * Network storage setup
@@ -306,7 +300,9 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Internet connectivity
 * Network documentation
 
-## Network Troubleshooting
+---
+
+# 8. Network Troubleshooting
 
 * No Internet
 * No LAN
@@ -325,18 +321,18 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Router problems
 * Wi-Fi problems
 * Network printer problems
-* Network storage connectivity problems
+* NAS connectivity problems
 
 ---
 
-# 8. Router Services
+# 9. Router Services
 
 * Router installation
 * Initial configuration
 * WAN configuration
 * LAN configuration
 * DHCP
-* Static DHCP reservations
+* DHCP reservations
 * DNS configuration
 * NAT
 * Port forwarding
@@ -346,13 +342,13 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Firmware updates
 * Configuration backup
 * Configuration restoration
-* Internet failover basics
-* QoS basics
+* Basic QoS
+* Internet failover fundamentals
 * Traffic monitoring
 
 ---
 
-# 9. Switching Services
+# 10. Switching Services
 
 * Managed-switch installation
 * Basic switch configuration
@@ -360,19 +356,19 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Access ports
 * Trunk ports
 * VLANs
-* Native VLAN concepts
 * Management VLAN
-* MAC address table troubleshooting
+* MAC-address troubleshooting
 * STP
 * RSTP
 * Port security
 * Loop troubleshooting
+* LACP/EtherChannel fundamentals
 * Configuration backup
 * Firmware maintenance
 
 ---
 
-# 10. VLAN & Network Segmentation Services
+# 11. VLAN & Network Segmentation
 
 * VLAN design
 * Staff VLAN
@@ -390,15 +386,15 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 
 ---
 
-# 11. Wi-Fi Services
+# 12. Wi-Fi Services
 
 * Wi-Fi installation
 * Access Point deployment
 * SSID configuration
-* WPA2/WPA3
+* WPA2/WPA3 configuration
 * Guest Wi-Fi
 * Staff Wi-Fi
-* Wi-Fi password/security configuration
+* Wi-Fi security configuration
 * Channel configuration
 * Channel-width configuration
 * 2.4 GHz optimization
@@ -408,14 +404,14 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Coverage assessment
 * Dead-zone troubleshooting
 * Interference troubleshooting
-* Signal-strength analysis
-* Roaming basics
+* Signal analysis
+* Roaming fundamentals
 * Wi-Fi performance testing
 * Wi-Fi documentation
 
 ---
 
-# 12. Structured Cabling Services
+# 13. Structured Cabling Services
 
 * Ethernet cable installation
 * Patch-cable preparation
@@ -426,14 +422,14 @@ Do **not** position yourself initially as a professional forensic/data-recovery 
 * Cable testing
 * Cable fault identification
 * Cable mapping
-* Cable documentation
 * Basic rack organization
+* Cable documentation
 
-For larger structured-cabling projects, subcontracting to a certified cabling installer may be smarter than trying to do everything yourself.
+For larger structured-cabling projects, subcontracting to a specialist can be more practical.
 
 ---
 
-# 13. Firewall Services
+# 14. Firewall Services
 
 * Firewall deployment
 * Firewall initial configuration
@@ -445,14 +441,14 @@ For larger structured-cabling projects, subcontracting to a certified cabling in
 * Guest isolation
 * Outbound filtering
 * Inbound filtering
-* Logging
+* Firewall logging
 * Firewall monitoring
 * Configuration backup
 * Firmware updates
 * Rule review
 * Basic security hardening
 
-### Platforms
+### Technologies
 
 * pfSense
 * OPNsense
@@ -464,11 +460,11 @@ Later:
 
 * FortiGate
 * Sophos
-* enterprise firewall platforms
+* Other enterprise firewalls
 
 ---
 
-# 14. VPN Services
+# 15. VPN Services
 
 * Remote-access VPN
 * Site-to-site VPN
@@ -479,7 +475,7 @@ Later:
 * VPN firewall rules
 * VPN troubleshooting
 
-Technologies:
+### Technologies
 
 * WireGuard
 * OpenVPN
@@ -488,20 +484,20 @@ Technologies:
 
 ---
 
-# 15. Windows Server Services
+# 16. Windows Server Services
 
 * Windows Server installation
 * Server configuration
 * Server naming
 * Static IP configuration
 * Server hardening
-* Server roles
+* Server roles/features
 * DNS
 * DHCP
 * Active Directory
 * File Server
 * Print Server
-* Remote Desktop Services basics
+* RDP
 * Windows Server Backup
 * Server monitoring
 * Server maintenance
@@ -510,7 +506,7 @@ Technologies:
 
 ---
 
-# 16. Active Directory Services
+# 17. Active Directory Services
 
 * Domain Controller deployment
 * Domain creation
@@ -519,7 +515,6 @@ Technologies:
 * Group creation
 * OU design
 * Security groups
-* Distribution groups
 * Password policies
 * Account lockout policies
 * Group Policy
@@ -530,11 +525,11 @@ Technologies:
 * File-share access control
 * AD troubleshooting
 * DNS/AD troubleshooting
-* Domain replication basics
+* Domain replication fundamentals
 
 ---
 
-# 17. DNS Services
+# 18. DNS Services
 
 * DNS installation
 * DNS configuration
@@ -555,7 +550,7 @@ Technologies:
 
 ---
 
-# 18. DHCP Services
+# 19. DHCP Services
 
 * DHCP server deployment
 * DHCP scopes
@@ -571,7 +566,7 @@ Technologies:
 
 ---
 
-# 19. File Server Services
+# 20. File Server Services
 
 * Windows File Server
 * SMB
@@ -581,18 +576,16 @@ Technologies:
 * Share permissions
 * Access control
 * User/group permissions
-* Quotas
 * File-server backup
 * File-server recovery
 * File-server documentation
 
 ---
 
-# 20. NAS Services
+# 21. NAS Services
 
 * NAS installation
-* NAS configuration
-* Storage pools
+* Storage-pool configuration
 * RAID configuration
 * SMB
 * NFS
@@ -605,7 +598,7 @@ Technologies:
 * NAS monitoring
 * NAS maintenance
 
-Technologies:
+### Technologies
 
 * TrueNAS
 * Synology
@@ -613,10 +606,10 @@ Technologies:
 
 ---
 
-# 21. Virtualization Services
+# 22. Virtualization Services
 
-* VirtualBox lab
-* Proxmox deployment
+* VirtualBox
+* Proxmox
 * Hyper-V
 * VM creation
 * VM networking
@@ -628,33 +621,33 @@ Technologies:
 * VM restoration
 * Virtual switches
 * Virtual networks
-* Virtual firewalls
+* Virtual firewall
 * Virtual server environments
 
 ---
 
-# 22. Microsoft 365 Services
+# 23. Microsoft 365 Services
 
 * User administration
 * License administration
 * Outlook
-* Exchange Online basics
+* Exchange Online fundamentals
 * Teams
 * OneDrive
 * SharePoint
-* Microsoft Entra ID basics
+* Microsoft Entra ID fundamentals
 * MFA
 * Password/security policies
 * Email troubleshooting
 * Office application troubleshooting
 * Account recovery
-* Basic security configuration
+* Basic Microsoft 365 security
 
 ---
 
-# 23. Remote IT Support
+# 24. Remote IT Support
 
-* Remote Windows support
+* Remote desktop support
 * Remote application support
 * Remote network diagnostics
 * Remote server administration
@@ -669,15 +662,15 @@ Technologies:
 Security requirements:
 
 * MFA
-* VPN
-* least privilege
-* logging
-* customer authorization
-* secure credential handling
+* VPN where appropriate
+* Least privilege
+* Logging
+* Customer authorization
+* Secure credential management
 
 ---
 
-# 24. Monitoring Services
+# 25. Monitoring Services
 
 * Device monitoring
 * Server monitoring
@@ -688,13 +681,13 @@ Security requirements:
 * CPU monitoring
 * RAM monitoring
 * Disk monitoring
-* Network bandwidth monitoring
+* Bandwidth monitoring
 * Availability monitoring
 * Alerting
 * Performance reports
 * Capacity monitoring
 
-Technologies:
+### Technologies
 
 * Zabbix
 * LibreNMS
@@ -705,17 +698,17 @@ Technologies:
 
 ---
 
-# 25. IT Security Hardening Services
+# 26. IT Security Hardening
 
-## Endpoint
+## Desktop/Endpoint
 
 * Windows Defender
-* Firewall
+* Windows Firewall
 * BitLocker
 * Patch management
 * Secure configuration
-* Application control basics
-* Local administrator reduction
+* Local administrator management
+* Application security
 
 ## Network
 
@@ -724,12 +717,12 @@ Technologies:
 * Guest isolation
 * Secure Wi-Fi
 * Management access restriction
-* Secure router configuration
+* Router hardening
 
 ## Identity
 
 * MFA
-* Strong passwords
+* Strong authentication
 * Least privilege
 * Account management
 * Access reviews
@@ -745,28 +738,26 @@ Technologies:
 
 ---
 
-# 26. IT Documentation Services
+# 27. IT Documentation
 
 * Network diagrams
 * Asset inventory
 * IP address documentation
 * Device inventory
 * Configuration documentation
-* Network topology
 * Server documentation
 * Backup documentation
 * Disaster recovery documentation
 * SOPs
 * Troubleshooting guides
-* Password/access-management procedures
+* Incident reports
 * Change records
 * Maintenance records
-* Incident reports
-* Client handover documentation
+* Customer handover documentation
 
 ---
 
-# 27. Preventive Maintenance Services
+# 28. Preventive Maintenance
 
 * Desktop maintenance
 * Windows maintenance
@@ -782,11 +773,11 @@ Technologies:
 * Configuration backup
 * Patch management
 * Security checks
-* Performance reports
+* Performance reporting
 
 ---
 
-# 28. Asset Management
+# 29. Asset Management
 
 * Hardware inventory
 * Software inventory
@@ -802,9 +793,7 @@ Technologies:
 
 ---
 
-# 29. IT Consulting
-
-Eventually:
+# 30. IT Consulting
 
 * IT infrastructure assessment
 * Network assessment
@@ -821,20 +810,20 @@ Eventually:
 
 ---
 
-# 30. AMC / Managed IT Services
+# 31. AMC / Managed IT Services
 
 ## AMC
 
 * Remote support
 * Onsite support
-* Preventive maintenance
-* Network troubleshooting
 * Desktop troubleshooting
+* Network troubleshooting
 * Server maintenance
 * Backup verification
 * Security checks
 * Asset management
 * Documentation
+* Preventive maintenance
 
 ## Managed IT / MSP
 
@@ -853,7 +842,7 @@ Eventually:
 
 ---
 
-# 31. PowerShell Automation Services
+# 32. PowerShell Automation
 
 * Windows inventory
 * Hardware inventory
@@ -862,7 +851,7 @@ Eventually:
 * Service monitoring
 * Event-log collection
 * Disk-health checks
-* Windows update checks
+* Windows Update checks
 * Network configuration
 * Bulk configuration
 * Automated reports
@@ -872,70 +861,47 @@ Eventually:
 
 ---
 
-# 32. Python Automation Services
+# 33. Python & Network Automation
 
-Because you already know Python, this should be an **advanced differentiator**, not your first service category.
+Since you already know Python, use it as a **business differentiator**, not as your primary service.
 
-### Build:
+### Services/tools you can eventually develop:
 
-* Network inventory tools
-* IP scanners
-* Port-checking utilities
+* Network inventory
+* IP scanning
+* Port checking
 * Device health checks
-* Configuration backup tools
-* Log collection tools
+* Configuration backup
+* Log collection
 * Automated reporting
-* Network monitoring scripts
+* Network monitoring
 * API integrations
 * Asset-management utilities
-* Backup verification tools
+* Backup verification
 * Infrastructure dashboards
 
-### Libraries/technologies
+### Technologies
 
+* Python
 * `socket`
 * `subprocess`
 * `requests`
-* `Paramiko`
-* `Netmiko`
+* Paramiko
+* Netmiko
 * REST APIs
 * JSON
 * CSV
 * SQLite
 * SNMP libraries
-* logging
+* Ansible concepts
 
 ---
 
-# 33. Network Automation
-
-* Device discovery
-* Configuration backup
-* Configuration deployment
-* Network inventory
-* Interface monitoring
-* Automated reports
-* Device compliance checks
-* API automation
-* SSH automation
-* Configuration validation
-
-Technologies:
-
-* Python
-* Netmiko
-* Paramiko
-* REST APIs
-* Ansible
-* SNMP
-
----
-
-# 34. Core Technical Skills You Need
+# 34. CORE TECHNICAL SKILLS
 
 ## Hardware
 
-* PC architecture
+* Desktop PC architecture
 * Component compatibility
 * CPU
 * RAM
@@ -952,7 +918,7 @@ Technologies:
 
 ---
 
-# 35. Windows Skills
+# 35. Windows
 
 * Windows architecture
 * Installation
@@ -977,7 +943,7 @@ Technologies:
 
 ---
 
-# 36. Linux Skills
+# 36. Linux
 
 * Linux filesystem
 * Users
@@ -999,9 +965,9 @@ Technologies:
 
 ---
 
-# 37. Networking Fundamentals
+# 37. Networking
 
-You should have strong command of:
+You need strong practical knowledge of:
 
 * OSI model
 * TCP/IP model
@@ -1016,7 +982,7 @@ You should have strong command of:
 * Ports
 * Sockets
 * IPv4
-* IPv6 basics
+* IPv6 fundamentals
 * Subnetting
 * CIDR
 * Default gateway
@@ -1031,27 +997,26 @@ You should have strong command of:
 
 ---
 
-# 38. Switching Skills
+# 38. Switching
 
 * MAC learning
-* MAC address table
-* Collision/broadcast domains
+* MAC address tables
 * Access ports
 * Trunk ports
 * VLAN
 * 802.1Q
-* Native VLAN
+* Native VLAN concepts
 * STP
 * RSTP
 * Port security
 * Loop prevention
-* EtherChannel/LACP concepts
+* LACP fundamentals
 * Switch management
 * Configuration backup
 
 ---
 
-# 39. Routing Skills
+# 39. Routing
 
 * Routing tables
 * Static routes
@@ -1059,25 +1024,25 @@ You should have strong command of:
 * Inter-VLAN routing
 * NAT
 * PAT
-* Gateway
+* Gateway configuration
 * Routing troubleshooting
-* Basic dynamic routing concepts
+* Basic dynamic-routing concepts
 
 Later:
 
 * OSPF
 * BGP
 
-You don't need BGP for your initial SMB business.
+**BGP is not an initial requirement for your target SMB market.**
 
 ---
 
-# 40. Wi-Fi Skills
+# 40. Wi-Fi
 
 * 802.11 fundamentals
 * 2.4 GHz
 * 5 GHz
-* 6 GHz
+* 6 GHz fundamentals
 * Channels
 * Channel width
 * RSSI
@@ -1094,7 +1059,7 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 41. Firewall Skills
+# 41. Firewall
 
 * Firewall architecture
 * Stateful filtering
@@ -1111,7 +1076,7 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 42. VPN Skills
+# 42. VPN
 
 * VPN fundamentals
 * Tunneling
@@ -1128,10 +1093,10 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 43. Windows Server Skills
+# 43. Windows Server
 
 * Windows Server installation
-* Roles/features
+* Server roles/features
 * Server networking
 * DNS
 * DHCP
@@ -1147,20 +1112,19 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 44. Active Directory Skills
+# 44. Active Directory
 
 * Domains
 * Domain Controllers
 * Forests
-* Trees
 * OUs
 * Users
 * Groups
 * Group scopes
 * Group Policy
 * Authentication
-* Kerberos concepts
-* LDAP concepts
+* Kerberos fundamentals
+* LDAP fundamentals
 * DNS integration
 * Domain joining
 * Permissions
@@ -1170,9 +1134,8 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 45. Backup Skills
+# 45. Backup
 
-* Backup types
 * Full backup
 * Incremental backup
 * Differential backup
@@ -1187,12 +1150,14 @@ You don't need BGP for your initial SMB business.
 * Disaster recovery
 * Business continuity
 
+**RAID is not a backup.**
+
 ---
 
-# 46. Virtualization Skills
+# 46. Virtualization
 
 * Hypervisors
-* VMs
+* Virtual machines
 * vCPU
 * vRAM
 * Virtual disks
@@ -1209,7 +1174,7 @@ You don't need BGP for your initial SMB business.
 
 ---
 
-# 47. Storage Skills
+# 47. Storage
 
 * HDD
 * SSD
@@ -1229,13 +1194,9 @@ You don't need BGP for your initial SMB business.
 * Storage monitoring
 * Capacity planning
 
-Remember:
-
-> RAID is not a backup.
-
 ---
 
-# 48. Microsoft 365 Skills
+# 48. Microsoft 365
 
 * Microsoft accounts
 * Entra ID
@@ -1255,7 +1216,7 @@ Remember:
 
 ---
 
-# 49. Monitoring Skills
+# 49. Monitoring
 
 * SNMP
 * Syslog
@@ -1263,7 +1224,7 @@ Remember:
 * Logs
 * Alerts
 * Thresholds
-* Availability
+* Availability monitoring
 * Performance monitoring
 * Capacity monitoring
 * Dashboard creation
@@ -1272,9 +1233,9 @@ Remember:
 
 ---
 
-# 50. Cybersecurity Skills
+# 50. Cybersecurity
 
-For this business, focus initially on **infrastructure defense**.
+For your business, initially focus on **defensive infrastructure security**.
 
 ### Fundamentals
 
@@ -1308,7 +1269,7 @@ For this business, focus initially on **infrastructure defense**.
 ### Identity
 
 * MFA
-* Strong authentication
+* Authentication
 * Privilege management
 * Account lifecycle
 
@@ -1321,11 +1282,11 @@ For this business, focus initially on **infrastructure defense**.
 
 ---
 
-# 51. Troubleshooting Skills
+# 51. Troubleshooting Methodology
 
-This is the **highest-value skill category**.
+This should become one of your strongest professional skills.
 
-You need to learn how to troubleshoot systematically:
+Use:
 
 ```text
 Identify
@@ -1338,7 +1299,7 @@ Form Hypothesis
    ↓
 Test
    ↓
-Find Root Cause
+Determine Root Cause
    ↓
 Fix
    ↓
@@ -1347,27 +1308,23 @@ Verify
 Document
 ```
 
-Never make:
+Avoid:
 
 ```text
 Problem
- ↓
-Random reboot
- ↓
+   ↓
 Random configuration changes
- ↓
+   ↓
 Reinstall everything
+   ↓
+Hope it works
 ```
-
-your default methodology.
 
 ---
 
-# 52. Troubleshooting Tool Skills
+# 52. Troubleshooting Tools & Commands
 
-Learn to use:
-
-### Windows
+## Windows
 
 ```text
 ipconfig
@@ -1389,7 +1346,7 @@ gpupdate
 PowerShell
 ```
 
-### Linux
+## Linux
 
 ```text
 ip
@@ -1410,22 +1367,22 @@ ps
 grep
 ```
 
-### Network tools
+## Network Tools
 
 * Wireshark
 * Nmap
 * iPerf3
-* Cable tester
 * Ping
 * Traceroute
-* DNS tools
+* Cable tester
+* DNS diagnostic tools
 * SNMP tools
 
 ---
 
 # 53. Documentation Skills
 
-Learn to produce:
+Learn to create:
 
 * Network diagrams
 * IP address tables
@@ -1436,16 +1393,14 @@ Learn to produce:
 * Incident reports
 * Change records
 * SOPs
-* Customer handover documents
 * Troubleshooting reports
-
-A freelancer who documents properly is significantly easier to trust than someone who simply "fixes the PC."
+* Customer handover documents
 
 ---
 
-# 54. Professional/Business Skills
+# 54. Business Skills
 
-You also need:
+You need technical skills **and** operational skills:
 
 * Requirement gathering
 * Scope definition
@@ -1458,68 +1413,20 @@ You also need:
 * Incident management
 * Customer communication
 * Technical reporting
-* Time management
 * Job estimation
 * Risk assessment
-* Warranty handling
 * Vendor coordination
 * Procurement
 * Asset tracking
 
 ---
 
-# 55. Security & Professional Process Skills
+# 55. Priority Structure
 
-Before touching a customer's infrastructure:
+## P0 — Must Know
 
-### Get authorization.
-
-Before changing configuration:
-
-### Record the existing configuration.
-
-Before risky operations:
-
-### Create a backup.
-
-After making changes:
-
-### Verify.
-
-After finishing:
-
-### Document.
-
-For example:
-
-```text
-Customer request
-      ↓
-Scope confirmed
-      ↓
-Backup/configuration captured
-      ↓
-Change performed
-      ↓
-Testing
-      ↓
-Customer verification
-      ↓
-Documentation
-```
-
-This protects both the customer and your business.
-
----
-
-# 56. Priority Classification
-
-## 🔴 P0 — Critical
-
-Learn before actively selling infrastructure services:
-
-* PC hardware
-* PC assembly
+* Desktop hardware
+* Desktop assembly
 * Hardware diagnostics
 * Windows
 * Windows troubleshooting
@@ -1541,14 +1448,11 @@ Learn before actively selling infrastructure services:
 * Backup fundamentals
 * Security fundamentals
 * Documentation
-* Customer communication
 * Troubleshooting methodology
 
 ---
 
-# 🟠 P1 — High Priority
-
-Learn immediately after your P0 foundation:
+## P1 — High Priority
 
 * VLAN
 * Trunking
@@ -1572,7 +1476,7 @@ Learn immediately after your P0 foundation:
 
 ---
 
-# 🟡 P2 — Medium Priority
+## P2 — Medium Priority
 
 * Network automation
 * Python infrastructure automation
@@ -1589,7 +1493,7 @@ Learn immediately after your P0 foundation:
 
 ---
 
-# 🟢 P3 — Later
+## P3 — Later
 
 * OSPF
 * BGP
@@ -1605,135 +1509,181 @@ Learn immediately after your P0 foundation:
 
 ---
 
-# 57. The Complete Skill Dependency Chain
-
-Don't learn these randomly.
-
-Use this dependency structure:
+# 56. Recommended Learning Dependency
 
 ```text
-COMPUTER HARDWARE
+Desktop Hardware
        ↓
-OPERATING SYSTEMS
+Windows
        ↓
-WINDOWS ADMINISTRATION
+Linux Basics
        ↓
-LINUX BASICS
-       ↓
-NETWORKING FUNDAMENTALS
+Networking Fundamentals
        ↓
 TCP/IP
        ↓
-IPv4 + SUBNETTING
+IPv4 + Subnetting
        ↓
 DHCP + DNS + NAT
        ↓
-ROUTING + SWITCHING
+Routing + Switching
        ↓
 VLAN + STP
        ↓
-WI-FI
+Wi-Fi
        ↓
-FIREWALL
+Firewall
        ↓
 VPN
        ↓
-WINDOWS SERVER
+Windows Server
        ↓
-ACTIVE DIRECTORY
+Active Directory
        ↓
-FILE SERVER
+File Server
        ↓
-NAS + STORAGE
+NAS + Storage
        ↓
-BACKUP + DR
+Backup + Disaster Recovery
        ↓
-VIRTUALIZATION
+Virtualization
        ↓
-MONITORING
+Monitoring
        ↓
-POWERSHELL
+PowerShell
        ↓
-PYTHON AUTOMATION
+Python Automation
        ↓
-SECURITY HARDENING
+Security Hardening
        ↓
-MANAGED IT / MSP
+Managed IT / MSP
        ↓
-INFRASTRUCTURE SECURITY
+Infrastructure Security
 ```
 
-That is the **logical learning architecture** for the business.
+# 57. Minimum Viable Freelance Stack
 
----
+If you want to start without wasting months learning unnecessary technologies, concentrate on this initial stack.
 
-# 58. Your Minimum Viable Freelance Business
+### Services
 
-If you want to avoid getting buried under hundreds of technologies, your initial offering can be reduced to:
-
-### Core Services
-
-**Desktop**
-
-* Assembly
-* Upgrades
-* Diagnostics
-* Windows
+* Desktop PC assembly
+* Desktop upgrades
+* Hardware diagnostics
+* Windows installation
+* Windows troubleshooting
 * Software troubleshooting
-* Maintenance
+* Desktop preventive maintenance
+* Small-office LAN
+* Router configuration
+* Switch configuration
+* Wi-Fi setup/troubleshooting
+* DHCP/DNS/NAT
+* Basic VLAN
+* Network troubleshooting
+* Backup
+* Remote support
+* IT documentation
 
-**Networking**
+### Core Skills
 
-* LAN
-* Router
-* Switch
-* Wi-Fi
+* Desktop hardware
+* Windows
+* Linux basics
+* TCP/IP
+* IPv4
+* Subnetting
 * DHCP
 * DNS
 * NAT
-* Basic VLAN
-* Network troubleshooting
-
-**Business IT**
-
+* Routing
+* Switching
+* VLAN
+* Wi-Fi
+* Router/firewall basics
+* Troubleshooting
 * Backup
-* NAS
-* Remote support
+* Security fundamentals
 * Documentation
-* Preventive maintenance
 
-**Security**
+### Technologies
 
-* Windows hardening
-* Firewall
-* Secure Wi-Fi
-* MFA
-* Backup protection
-
-**Automation**
-
+* Windows 11
+* Ubuntu Server
+* Cisco networking concepts
+* MikroTik
+* UniFi or Omada
+* pfSense/OPNsense
+* Wireshark
+* Nmap
 * PowerShell
-* Your existing Python knowledge
+* Python
+* VirtualBox
+* Proxmox
 
-Then expand into:
+### Home Lab
 
 ```text
-Server
-→ AD
-→ NAS
-→ Backup
-→ Virtualization
-→ Monitoring
-→ Microsoft 365
-→ Automation
-→ Security
-→ Managed IT
+                    Internet
+                       |
+                Router/Firewall
+                       |
+                 Managed Switch
+             _________|_________
+            |         |         |
+         Desktop   Wi-Fi AP   Proxmox
+                              /   |   \
+                             /    |    \
+                    Windows Server Linux Monitoring
+                          |
+                    Active Directory
+                          |
+                    File/Backup Server
 ```
 
-### The hard truth
+### First Practical Projects
 
-You do **not** need 100 technologies to start.
+1. Assemble a desktop PC
+2. Diagnose a deliberately faulty PC
+3. Install Windows
+4. Configure BIOS/UEFI
+5. Perform SSD migration
+6. Build a basic LAN
+7. Configure a router
+8. Configure a managed switch
+9. Create VLANs
+10. Build a Windows Server + Active Directory lab
 
-You need roughly **15–20 core technical competencies**, but you need them at a level where you can **diagnose, implement, verify, document and explain** them without constantly searching for the next command.
+### First Customer Types
 
-For your specific business, **troubleshooting + networking + Windows + small-business infrastructure** should be the core competency stack. Python is your automation multiplier, while cybersecurity becomes the longer-term differentiator.
+Start with relatively simple environments:
+
+* Small offices
+* CA offices
+* Retail stores
+* Small educational institutions
+* Small clinics
+* Libraries
+* Internet cafés
+
+Then progress toward:
+
+* Hotels
+* Small factories
+* Larger schools/colleges
+* Multi-site businesses
+* Server-heavy environments
+
+---
+
+## The key business boundary
+
+Your business should be positioned as:
+
+> **Desktop PC + System Administration + Small-Business Networking + IT Infrastructure Support**
+
+—not as a generic "computer repair" shop.
+
+That distinction matters. It allows you to move from **one-time PC repair revenue** toward **network projects, server administration, preventive maintenance, AMC and recurring managed IT revenue**.
+
+And there is **no laptop hardware repair/replacement scope** in this model.
