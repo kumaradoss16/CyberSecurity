@@ -1,235 +1,1021 @@
-# README Generation Prompt
+Act as a **Senior Software Engineer, Technical Writer, GitHub Repository Maintainer, and Software Documentation Architect**.
 
-**Project:** Email Account & Digital Footprint Manager
-**Purpose:** A ready-to-paste prompt that generates a professional, human-sounding `README.md` for this repository, following a fixed section structure.
+Create a complete, professional, human-written **README.md technical documentation** for the following GitHub project:
+
+**Project Name:** [PROJECT NAME]
+
+**Project Description:** [PROJECT DESCRIPTION]
+
+**GitHub Repository:** [GITHUB REPOSITORY URL]
+
+**Technology Stack:** [TECHNOLOGIES]
+
+**Project Type:** [CLI / Web Application / REST API / Desktop Application / Automation / Security Tool / Networking Tool]
+
+**Target Users:** [TARGET USERS]
+
+**Project Level:** [BEGINNER / INTERMEDIATE / ADVANCED]
+
+**Current Project Files/Structure:**
+[PASTE PROJECT TREE HERE]
+
+**Source Code:**
+[PASTE CODE OR PROVIDE REPOSITORY/FILES]
 
 ---
 
-## How to Use This
+# Documentation Objective
 
-1. Fill in the four bracketed placeholders near the top of the prompt: `[INSERT GITHUB REPO URL]`, `[INSERT NAME / GITHUB USERNAME]`, `[INSERT LICENSE]`, `[INSERT NAME]` / `[INSERT GITHUB PROFILE / CONTACT]`.
-2. Paste the whole prompt into a fresh AI conversation. For best results, attach or paste the real project files (or at least the module docstrings) alongside it, so the output is grounded in what's actually in the repo rather than guessed.
-3. Re-run it (or just the affected sections) after finishing each new development phase - **Project Structure** and **Configuration** are the sections most likely to go stale as the project grows.
+Generate a **human-readable, technically accurate README.md** that explains the project as if it were written by the developer who actually designed and built it.
+
+The README must not sound like AI-generated marketing content.
+
+Use clear, natural technical writing.
+
+Do not use unnecessary buzzwords such as:
+
+* Revolutionary
+* Cutting-edge
+* Next-generation
+* Enterprise-grade
+* Powerful
+* Robust
+
+unless they are technically justified.
+
+Do not exaggerate project capabilities.
+
+Do not invent features, benchmarks, technologies, APIs, security controls, test results, or implementation details that are not actually present in the project.
+
+If information is missing, write:
+
+`[TODO: Add information about ...]`
+
+instead of inventing it.
 
 ---
 
-## The Prompt
+# REQUIRED README STRUCTURE
 
-````markdown
-Act as a senior technical writer and developer documentation specialist
-who has read this entire codebase and actually understands what it
-does - not a generic README generator.
+Create the README using the following structure.
 
-PROJECT CONTEXT:
+# 1. Project Title
 
-Project name: Email Account & Digital Footprint Manager
-GitHub repository: [INSERT GITHUB REPO URL]
-Author: [INSERT NAME / GITHUB USERNAME]
-License: [INSERT LICENSE, e.g. MIT]
+Use:
 
-What it does: A security-focused Python/FastAPI application that helps
-an AUTHORIZED USER discover, organize, assess, secure, and clean up
-online services associated with their own email address, using only
-evidence they are authorized to access (their own inbox metadata via
-OAuth, their own OAuth grant lists). It is explicitly NOT an
-account-enumeration tool - it never probes login/signup/password-reset
-flows on third-party sites.
+```markdown
+# [Project Name]
+```
 
-Development approach: Built incrementally in 17 defined phases (see
-the phase list below), each ending with a written Security Review
-before moving to the next phase. Currently implemented: Phase 1
-(project foundation) and Phase 2 (application authentication).
+Immediately provide a concise description of what the project does.
 
-Tech stack actually in use so far:
-- Backend: Python 3.12+, FastAPI, Pydantic v2, Pydantic-Settings
-- Database: SQLAlchemy 2.0 (typed ORM), Alembic migrations, SQLite (dev), PostgreSQL (prod target)
-- Auth/security: Argon2id password hashing (argon2-cffi), server-side
-  sessions stored in the database, synchronizer-pattern CSRF tokens,
-  a hand-rolled in-memory sliding-window rate limiter, structured
-  logging with an automatic secret-redaction filter
-- Testing: pytest, pytest-asyncio, httpx, FastAPI TestClient
-- Planned but not yet built: Jinja2 + Bootstrap frontend, Gmail API,
-  Microsoft Graph, Docker, Nginx, Redis/Celery
+Example:
 
-FULL PHASE ROADMAP (include this in the README's Roadmap section,
-marking Phases 1-2 as done and the rest as planned):
-1. Project foundation
-2. Application authentication (register/login/logout, sessions, CSRF, rate limiting)
-3. Account inventory + service registry + dashboard UI
-4. Evidence model + evidence engine + confidence engine
-5. Gmail OAuth + mailbox metadata scanning
-6. Microsoft Graph integration
-7. Service detection
-8. OAuth inventory
-9. Subscription detection
-10. Cleanup center
-11. Security hygiene dashboard
-12. Reports
-13. Data export/deletion
-14. Docker
-15. Ubuntu server deployment
-16. Security testing
-17. Production hardening
+```markdown
+# Network Diagnostic CLI
 
-CURRENT PROJECT STRUCTURE (describe the purpose of every one of these
-in the "Project Structure" section, in plain language, not just
-restating the filename):
+A Python-based command-line tool that performs network connectivity,
+DNS, gateway, and routing diagnostics to help identify common
+network configuration problems.
+```
 
-email_footprint_manager/
+---
+
+# 2. Project Overview
+
+Explain:
+
+* What the project is
+* What problem it solves
+* Why it was built
+* Who can use it
+* What the application does at a high level
+
+Keep this technical rather than promotional.
+
+---
+
+# 3. Real-World Problem
+
+Explain the actual problem that motivated the project.
+
+Use this format:
+
+```markdown
+## Real-World Problem
+
+[Explain the problem.]
+
+For example:
+
+- What currently requires manual work?
+- What information is difficult to obtain?
+- What troubleshooting process is repetitive?
+- What problem does this application simplify?
+```
+
+Clearly distinguish between the **problem** and the **solution**.
+
+---
+
+# 4. Solution
+
+Explain how the project addresses the problem.
+
+Describe:
+
+```text
+User
+ ↓
+Application
+ ↓
+Processing
+ ↓
+External service / system
+ ↓
+Result
+ ↓
+User
+```
+
+Use a simple Mermaid diagram when appropriate.
+
+Example:
+
+```mermaid
+flowchart TD
+    A[User Input] --> B[Input Validation]
+    B --> C[Diagnostic Engine]
+    C --> D[Network Tests]
+    D --> E[Result Analysis]
+    E --> F[Terminal Report]
+```
+
+Do not create diagrams that do not accurately represent the source code.
+
+---
+
+# 5. Key Features
+
+List the actual implemented features.
+
+Example:
+
+```markdown
+## Key Features
+
+- IPv4 and IPv6 validation
+- DNS resolution testing
+- Default gateway detection
+- Internet connectivity testing
+- Response-time measurement
+- Human-readable CLI output
+- JSON report generation
+```
+
+Do not list planned features as implemented features.
+
+If a feature is planned, place it under:
+
+```markdown
+## Future Improvements
+```
+
+---
+
+# 6. Technology Stack
+
+Create a table:
+
+| Technology | Purpose          |
+| ---------- | ---------------- |
+| Python     | Core application |
+| FastAPI    | REST API         |
+| PostgreSQL | Data storage     |
+| pytest     | Testing          |
+| Docker     | Containerization |
+
+Only include technologies actually used.
+
+---
+
+# 7. Project Architecture
+
+Explain the major components.
+
+Example:
+
+```text
+User
+ │
+ ▼
+CLI
+ │
+ ▼
+Service Layer
+ │
+ ├── Network Diagnostics
+ ├── DNS Resolver
+ ├── Gateway Checker
+ └── Report Generator
+ │
+ ▼
+Output
+```
+
+Explain what each component does.
+
+---
+
+# 8. Project Directory Structure
+
+Show the actual repository structure.
+
+Example:
+
+```text
+project/
+│
 ├── app/
-│   ├── main.py              # FastAPI app factory, security-header middleware,
-│   │                          restricted CORS, generic exception handlers, /health,
-│   │                          mounts the auth router
-│   ├── config.py            # Typed Settings object, loaded from .env - no
-│   │                          hardcoded secrets anywhere in the codebase
-│   ├── database.py          # SQLAlchemy engine/session/Base + get_db dependency
-│   ├── logging_config.py    # Structured logging + a filter that auto-redacts
-│   │                          anything password/token-shaped from logs
-│   ├── exceptions.py        # AppError hierarchy - safe, generic client-facing
-│   │                          error messages, no leaked stack traces
-│   ├── security.py          # Argon2id password hashing, secure random token
-│   │                          generation, constant-time comparison
-│   ├── rate_limit.py        # Hand-rolled sliding-window rate limiter (documented
-│   │                          single-process limitation; Redis planned later)
-│   ├── utils.py             # Shared helpers (UTC time handling, etc.)
-│   ├── models/
-│   │   ├── user.py          # User ORM model (email, Argon2id hash, lockout fields)
-│   │   └── session.py       # UserSession ORM model (server-side sessions + CSRF tokens)
-│   ├── schemas/
-│   │   └── auth.py          # Pydantic request/response models for registration,
-│   │                          login, and the safe public user representation
-│   ├── repositories/
-│   │   ├── user_repository.py     # All User-table queries, in one auditable place
-│   │   └── session_repository.py  # All session-table queries and expiry logic
+│   ├── main.py
+│   ├── config.py
 │   ├── services/
-│   │   └── auth_service.py  # Registration/login business logic: password
-│   │                          verification, account lockout, timing-attack
-│   │                          mitigation, session creation
-│   └── api/
-│       ├── deps.py          # FastAPI dependencies: get_current_session,
-│       │                      get_current_user, require_csrf, cookie helpers
-│       └── auth.py          # /auth/register, /auth/login, /auth/logout, /auth/me
-├── migrations/               # Alembic migration environment and versions
-├── tests/                     # pytest suite: test_health.py, test_security.py,
-│                                test_rate_limit.py, test_auth.py, conftest.py
-├── .env.example
+│   │   ├── network.py
+│   │   └── dns.py
+│   └── utils/
+│
+├── tests/
 ├── requirements.txt
-├── pyproject.toml
-├── alembic.ini
-├── SECURITY.md               # Living threat model + per-phase security reviews
+├── .env.example
+├── .gitignore
 └── README.md
+```
 
-TASK:
+Then explain each important file and directory.
 
-Write a complete, professional, and - this matters - GENUINELY HUMAN-
-SOUNDING README.md for this repository. It should read like it was
-written by the developer who actually built this and cares about it,
-not like AI-generated boilerplate. Avoid generic filler phrases like
-"This project aims to..." or "In today's digital world...". Be direct,
-specific, and a little opinionated where it's warranted (e.g., explain
-*why* certain security choices were made, not just that they exist).
+Use a table where appropriate:
 
-Follow this exact section order and cover the following in each:
+| File/Directory | Purpose                           |
+| -------------- | --------------------------------- |
+| `main.py`      | Application entry point           |
+| `services/`    | Core application logic            |
+| `tests/`       | Automated tests                   |
+| `.env.example` | Example environment configuration |
 
-├── Project Title
-    - The project name as an H1, plus a one-line tagline.
-
-├── Short Description
-    - 2-3 sentences: what it does, who it's for, and the one thing
-      that makes it different (evidence-based, not enumeration-based).
-
-├── Badges
-    - Markdown badges for: Python version, license, build/test status
-      (placeholder), and "Security-Focused" as a custom badge. Use
-      shields.io syntax with [INSERT GITHUB REPO URL] wired in.
-
-├── Overview
-    - A few paragraphs on the problem this solves, the core workflow
-      (DISCOVER → COLLECT EVIDENCE → IDENTIFY SERVICE → CLASSIFY
-      CONFIDENCE → REVIEW → SECURE → CLEAN UP), and the explicit
-      non-goals (never enumeration, never stores passwords).
-
-├── Features
-    - Bullet list of what's actually implemented right now (Phase 1 +
-      2 features only - don't oversell unbuilt phases here; that's
-      what Roadmap is for).
-
-├── Technologies / Tech Stack
-    - Organized by layer (Backend / Database / Security / Testing),
-      pulled from the tech stack list above, with a one-line "why this
-      one" note for the non-obvious choices (e.g., why Argon2id, why a
-      hand-rolled rate limiter instead of a dependency).
-
-├── Project Structure
-    - The directory tree above, annotated, plus a short paragraph per
-      top-level folder explaining its role in the architecture (why
-      repositories/ is separate from services/, why api/ stays thin).
-
-├── Prerequisites
-    - Python 3.12+, pip, git; note SQLite needs nothing extra for dev,
-      PostgreSQL is the production target.
-
-├── Installation
-    - Full working command sequence for BOTH Windows (PowerShell) and
-      macOS/Linux: clone, venv, activate, pip install -r
-      requirements.txt, copy .env.example to .env, alembic upgrade
-      head, uvicorn app.main:app --reload. Use real, tested commands -
-      not placeholders.
-
-├── Usage
-    - How to actually use the running API: hitting /health, and the
-      full register → login → me → logout flow, including the CSRF
-      header requirement on logout. Mention interactive docs at /docs.
-
-├── Examples
-    - Concrete curl examples for register/login/me/logout, showing
-      real request/response JSON shapes (use example.com emails, never
-      real-looking credentials).
-
-├── Testing
-    - How to run `pytest -v`, what's covered (health, security
-      primitives, rate limiting, full auth flow including CSRF and
-      account lockout), and that tests run against an isolated
-      in-memory database, never real data.
-
-├── Configuration
-    - Table of every .env variable, its purpose, and its default -
-      pulled from .env.example and config.py. Flag SECRET_KEY and
-      DEBUG as security-relevant with a one-line warning on each
-      (DEBUG=true bypasses the app's own safe error handler - explain
-      this specifically, it's a real, non-obvious gotcha).
-
-├── Documentation
-    - Point to SECURITY.md for the full threat model and per-phase
-      security reviews. Note that every module has an in-depth
-      docstring (what/why/how/security notes/how-to-test) and that's
-      the canonical source of truth for implementation details.
-
-├── Roadmap
-    - The 17-phase list above, phases 1-2 checked off, rest unchecked,
-      as a markdown task list.
-
-├── Contributing
-    - Since this is currently a solo/learning project, say so plainly;
-      note the phase-by-phase development discipline (don't skip
-      ahead, security review at the end of each phase) as the
-      contribution model if that changes later.
-
-├── License
-    - State [INSERT LICENSE] and link to a LICENSE file.
-
-└── Author / Contact
-    - [INSERT NAME], [INSERT GITHUB PROFILE / CONTACT].
-
-OUTPUT FORMAT: Return only the final README.md content in valid
-Markdown, ready to save directly as README.md. No preamble, no
-explanation of what you're about to do - just the document.
-````
+Do not merely repeat the directory tree.
 
 ---
 
-## Notes
+# 9. System Requirements
 
-- The **Configuration** and **Project Structure** sections drift fastest - re-run this prompt (or just those sections) at the end of every new phase rather than letting the README go stale.
-- Swap in real content, not placeholders, wherever you can - the more grounded the input, the less the output reads like generic AI filler.
-- Want the actual `README.md` generated right now from this same prompt, using the real project already built? Just say so and it'll be written straight into the project folder.
+Specify:
+
+* Operating system
+* Python version
+* Required software
+* Database requirements
+* External services
+* Network requirements
+
+Example:
+
+```markdown
+## Requirements
+
+- Python 3.12+
+- Git
+- Internet connection
+- Linux, Windows, or macOS
+```
+
+Only include requirements actually needed.
+
+---
+
+# 10. Installation
+
+Provide exact commands.
+
+Example:
+
+```bash
+git clone <repository-url>
+cd <project-directory>
+
+python -m venv .venv
+```
+
+Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Then:
+
+```bash
+pip install -r requirements.txt
+```
+
+Explain every important command briefly.
+
+Do not provide commands that have not been verified against the project structure.
+
+---
+
+# 11. Environment Configuration
+
+If environment variables are used, document them.
+
+Example:
+
+```text
+API_KEY=
+DATABASE_URL=
+SECRET_KEY=
+```
+
+Explain:
+
+* Where the values come from
+* Where they should be stored
+* Why they are required
+
+Explicitly state:
+
+> Never commit `.env` files, passwords, API keys, tokens, or other secrets to Git.
+
+---
+
+# 12. How the Project Works
+
+Provide a complete project workflow.
+
+For example:
+
+```text
+1. User starts application
+        ↓
+2. Application reads input
+        ↓
+3. Input is validated
+        ↓
+4. Service layer performs operation
+        ↓
+5. External API/system is contacted
+        ↓
+6. Response is processed
+        ↓
+7. Data is normalized
+        ↓
+8. Result is displayed
+```
+
+Then explain each step.
+
+This section must describe the **actual implementation flow**.
+
+---
+
+# 13. Step-by-Step Project Development
+
+This is a critical section.
+
+Document **how the project should be built from an empty directory**.
+
+Do not simply describe the final project.
+
+Show the recommended development order.
+
+Example:
+
+```text
+Step 1 → Create project directory
+Step 2 → Create virtual environment
+Step 3 → Create main.py
+Step 4 → Implement configuration
+Step 5 → Implement input validation
+Step 6 → Implement service layer
+Step 7 → Implement API integration
+Step 8 → Implement output formatting
+Step 9 → Add error handling
+Step 10 → Add tests
+Step 11 → Add documentation
+```
+
+For every step provide:
+
+### Step N — [Task]
+
+Explain:
+
+* What is being built
+* Why it is being built at this stage
+* Which file should be created/modified
+* What code should be implemented
+* What the code is responsible for
+* How it connects to the previous step
+* How to test it
+
+---
+
+# 14. File-by-File Build Order
+
+Create a dedicated section showing the recommended implementation sequence.
+
+Example:
+
+```text
+01. requirements.txt
+02. .gitignore
+03. .env.example
+04. app/config.py
+05. app/models.py
+06. app/services/network.py
+07. app/services/dns.py
+08. app/utils/formatting.py
+09. app/main.py
+10. tests/test_network.py
+11. tests/test_dns.py
+12. README.md
+```
+
+Then explain why this order is logical.
+
+For each file provide:
+
+```markdown
+### 1. `requirements.txt`
+
+Purpose:
+Defines the project's Python dependencies.
+
+Implemented functionality:
+[...]
+
+Dependencies:
+[...]
+
+Depends on:
+[...]
+
+Used by:
+[...]
+```
+
+Do this for all important source files.
+
+---
+
+# 15. Code Implementation Walkthrough
+
+Explain the important program logic **in implementation order**.
+
+Do not dump the entire source code unnecessarily.
+
+Instead use focused examples.
+
+For example:
+
+### Step 1 — Define the data model
+
+```python
+class DiagnosticResult:
+    ...
+```
+
+Explain:
+
+* Why this class exists
+* What each attribute represents
+* Where it is used
+
+### Step 2 — Implement validation
+
+```python
+def validate_ip(address):
+    ...
+```
+
+Explain the logic.
+
+### Step 3 — Implement service logic
+
+```python
+def run_diagnostics():
+    ...
+```
+
+Explain how the components interact.
+
+Continue until the major workflow is covered.
+
+The objective is to allow another developer to **rebuild the project from the documentation**.
+
+---
+
+# 16. Complete Program Flow
+
+Provide a concise execution flow.
+
+Example:
+
+```text
+main()
+ │
+ ├── parse_arguments()
+ │
+ ├── validate_input()
+ │
+ ├── run_diagnostics()
+ │      ├── check_interface()
+ │      ├── check_gateway()
+ │      ├── check_dns()
+ │      └── check_internet()
+ │
+ └── display_results()
+```
+
+Explain the call relationship.
+
+---
+
+# 17. API Documentation
+
+If the project contains APIs, document:
+
+* Endpoint
+* HTTP method
+* URL
+* Authentication
+* Request parameters
+* Request body
+* Response
+* HTTP status codes
+* Error responses
+
+Example:
+
+```text
+GET /api/diagnostic
+```
+
+Request:
+
+```json
+{
+  "host": "example.com"
+}
+```
+
+Response:
+
+```json
+{
+  "status": "success",
+  "latency_ms": 42
+}
+```
+
+Only document endpoints that actually exist.
+
+---
+
+# 18. CLI Usage
+
+If the project has a CLI, document all important commands.
+
+Example:
+
+```bash
+python main.py --help
+python main.py 8.8.8.8
+python main.py --json 8.8.8.8
+```
+
+Show realistic example output.
+
+Do not invent output that differs from the implementation.
+
+---
+
+# 19. Web Interface
+
+If the project has a web interface, document:
+
+* Available pages
+* User workflow
+* Forms
+* API communication
+* Important UI components
+
+Include screenshots only if available.
+
+Use placeholders if screenshots are missing:
+
+```text
+[TODO: Add dashboard screenshot]
+```
+
+---
+
+# 20. Database Design
+
+If a database is used, document:
+
+* Tables
+* Columns
+* Relationships
+* Primary keys
+* Foreign keys
+* Important indexes
+
+Include an ER diagram using Mermaid when useful.
+
+Example:
+
+```mermaid
+erDiagram
+    USERS ||--o{ PROJECTS : owns
+    PROJECTS ||--o{ RESULTS : contains
+```
+
+Only represent the actual schema.
+
+---
+
+# 21. Error Handling
+
+Document how the application handles:
+
+* Invalid input
+* Network errors
+* API failures
+* Authentication failures
+* Missing configuration
+* Database errors
+* Timeouts
+* Unexpected responses
+
+Explain what users see when an error occurs.
+
+---
+
+# 22. Security
+
+Document security practices actually implemented.
+
+Consider:
+
+* Input validation
+* Authentication
+* Authorization
+* Password hashing
+* Secrets management
+* HTTPS
+* Rate limiting
+* SQL injection prevention
+* XSS protection
+* CSRF protection
+* Secure cookies
+* File-upload validation
+* Logging
+
+Do not claim a security feature exists unless it is implemented.
+
+For security-sensitive projects, explicitly document:
+
+```text
+Authorized Use Only
+```
+
+and explain the intended scope.
+
+---
+
+# 23. Testing
+
+Document:
+
+* Testing framework
+* Test directory
+* Unit tests
+* Integration tests
+* Mocking
+* Important test scenarios
+
+Provide commands such as:
+
+```bash
+pytest
+```
+
+If coverage is configured:
+
+```bash
+pytest --cov
+```
+
+Do not invent coverage percentages.
+
+---
+
+# 24. Example Usage
+
+Provide realistic examples demonstrating the project.
+
+Include:
+
+```text
+Input
+ ↓
+Command/API request
+ ↓
+Processing
+ ↓
+Output
+```
+
+Use screenshots or terminal output when available.
+
+---
+
+# 25. Troubleshooting
+
+Create a troubleshooting section for common problems.
+
+Format:
+
+### Problem: [Problem]
+
+**Cause:**
+[Explanation]
+
+**Solution:**
+
+```bash
+[command]
+```
+
+Only include realistic problems related to the project.
+
+---
+
+# 26. Limitations
+
+This section is mandatory.
+
+Explain what the application **cannot** do.
+
+Examples:
+
+* External API limitations
+* Platform restrictions
+* Accuracy limitations
+* Operating-system limitations
+* Permission requirements
+* Rate limits
+* Network dependencies
+
+Do not hide limitations.
+
+---
+
+# 27. Future Improvements
+
+Separate planned functionality from current functionality.
+
+Example:
+
+```markdown
+- Add web dashboard
+- Add Docker deployment
+- Add scheduled monitoring
+- Add additional API providers
+- Add notification support
+```
+
+Do not describe these as currently implemented.
+
+---
+
+# 28. Learning Outcomes
+
+Explain what technical skills a developer can learn by building this project.
+
+For example:
+
+* Python programming
+* HTTP
+* REST APIs
+* Networking
+* Linux
+* SQL
+* Authentication
+* Error handling
+* Testing
+* Git
+* Docker
+
+Connect each learning outcome to an actual project component.
+
+---
+
+# 29. Resume Relevance
+
+Explain the professional skills demonstrated by the project.
+
+Provide **2–3 technically accurate resume bullet options** based only on implemented functionality.
+
+Do not invent:
+
+* Performance numbers
+* User counts
+* Cost savings
+* Security improvements
+* Production deployments
+
+unless those facts are provided.
+
+---
+
+# 30. Git Workflow
+
+Provide a simple professional Git workflow.
+
+Example:
+
+```bash
+git init
+git add .
+git commit -m "Initial project setup"
+git branch -M main
+git remote add origin <repository-url>
+git push -u origin main
+```
+
+For feature development:
+
+```text
+main
+ │
+ ├── feature/network-diagnostics
+ ├── feature/report-generation
+ └── feature/tests
+```
+
+Explain when commits should be made.
+
+---
+
+# 31. Project Development Timeline
+
+Provide a realistic development sequence.
+
+Example:
+
+```text
+Day 1 → Project setup
+Day 2 → Core functionality
+Day 3 → API integration
+Day 4 → Error handling
+Day 5 → Testing
+Day 6 → Documentation
+```
+
+Do not underestimate complex work.
+
+---
+
+# 32. Contribution
+
+Explain how another developer can:
+
+1. Fork the repository
+2. Create a branch
+3. Make changes
+4. Run tests
+5. Commit changes
+6. Create a pull request
+
+---
+
+# 33. License
+
+If a license exists, document it.
+
+If no license has been selected, use:
+
+```text
+[TODO: Choose and add a project license]
+```
+
+Do not invent a license.
+
+---
+
+# 34. Author
+
+Use the actual author information supplied by the user.
+
+Do not invent:
+
+* Name
+* Email
+* Website
+* Social media
+
+---
+
+# Writing Style Requirements
+
+Write like a developer documenting a project for another developer.
+
+Use:
+
+* Short paragraphs
+* Clear headings
+* Tables where useful
+* Code blocks
+* Bullet points
+* Mermaid diagrams where useful
+* Technical terminology
+* Concrete examples
+
+Avoid:
+
+* Marketing language
+* Excessive emojis
+* Artificial enthusiasm
+* Repetitive explanations
+* Huge walls of text
+* Unnecessary theory
+* Generic statements such as "This project showcases cutting-edge technology."
+
+The documentation should be understandable by a developer who has never seen the project before.
+
+---
+
+# Accuracy Rules
+
+Before producing the README:
+
+1. Inspect the project structure.
+2. Identify the actual entry point.
+3. Identify actual dependencies.
+4. Identify actual APIs.
+5. Identify actual database models.
+6. Identify actual commands.
+7. Identify actual configuration.
+8. Identify actual tests.
+9. Identify security controls that are really implemented.
+10. Identify limitations.
+
+Do not assume functionality based only on filenames.
+
+If the source code contradicts the requested description, **document the source code accurately** and mention the discrepancy.
+
+---
+
+# Final README Quality Check
+
+Before returning the final README, verify:
+
+* [ ] Project purpose is clear
+* [ ] Real-world problem is explained
+* [ ] Solution is explained
+* [ ] Architecture is documented
+* [ ] Workflow is documented
+* [ ] Directory structure is documented
+* [ ] File-by-file development order is documented
+* [ ] Important code logic is explained
+* [ ] Installation is reproducible
+* [ ] Configuration is documented
+* [ ] CLI/API usage is documented
+* [ ] Error handling is documented
+* [ ] Security is documented
+* [ ] Testing is documented
+* [ ] Limitations are documented
+* [ ] Future improvements are separated from current features
+* [ ] Git workflow is included
+* [ ] No functionality has been invented
+* [ ] No fake benchmarks have been added
+* [ ] No fake screenshots or links have been added
+* [ ] No secrets are included
+* [ ] Writing sounds human and technical
+
+## Final Output
+
+Return **only the complete `README.md` content** in Markdown.
+
+The README must be ready to copy directly into the GitHub repository.
+
+Do not surround the entire README with another Markdown code block.
+
+Do not provide a separate explanation outside the README.
