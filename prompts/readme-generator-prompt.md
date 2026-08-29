@@ -1,3 +1,21 @@
+# README Generation Prompt
+
+**Project:** Email Account & Digital Footprint Manager
+**Purpose:** A ready-to-paste prompt that generates a professional, human-sounding `README.md` for this repository, following a fixed section structure.
+
+---
+
+## How to Use This
+
+1. Fill in the four bracketed placeholders near the top of the prompt: `[INSERT GITHUB REPO URL]`, `[INSERT NAME / GITHUB USERNAME]`, `[INSERT LICENSE]`, `[INSERT NAME]` / `[INSERT GITHUB PROFILE / CONTACT]`.
+2. Paste the whole prompt into a fresh AI conversation. For best results, attach or paste the real project files (or at least the module docstrings) alongside it, so the output is grounded in what's actually in the repo rather than guessed.
+3. Re-run it (or just the affected sections) after finishing each new development phase — **Project Structure** and **Configuration** are the sections most likely to go stale as the project grows.
+
+---
+
+## The Prompt
+
+````markdown
 Act as a senior technical writer and developer documentation specialist
 who has read this entire codebase and actually understands what it
 does — not a generic README generator.
@@ -206,3 +224,12 @@ Follow this exact section order and cover the following in each:
 OUTPUT FORMAT: Return only the final README.md content in valid
 Markdown, ready to save directly as README.md. No preamble, no
 explanation of what you're about to do — just the document.
+````
+
+---
+
+## Notes
+
+- The **Configuration** and **Project Structure** sections drift fastest — re-run this prompt (or just those sections) at the end of every new phase rather than letting the README go stale.
+- Swap in real content, not placeholders, wherever you can — the more grounded the input, the less the output reads like generic AI filler.
+- Want the actual `README.md` generated right now from this same prompt, using the real project already built? Just say so and it'll be written straight into the project folder.
