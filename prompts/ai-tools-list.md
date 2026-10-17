@@ -290,29 +290,306 @@
 * **Technical Tags:** `Text-to-Image`, `Flow Matching`, `Open Weights`, `Image Editing`
 * **Verified Link:** https://bfl.ai
 
-### Whisper
-* **Icon:** ![Whisper Icon](https://avatars.githubusercontent.com/u/14957082?s=128&v=4)
-* **Official Domain:** `openai.com`
-* **Category:** AI Models & Foundation Weights
-* **Resource Type:** model
-* **Description:** OpenAI's open-source encoder-decoder transformer for multilingual speech recognition, speech translation, and language identification from raw audio, MIT-licensed.
+### OpenRouter
+* **Icon:** ![OpenRouter Icon](https://avatars.githubusercontent.com/u/139423088?s=128&v=4)
+* **Official Domain:** `openrouter.ai`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Unified OpenAI-compatible gateway that routes requests to models from many providers, with automatic fallback and consolidated billing.
+* **Pricing & Free Classification:** free_tier
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Model Gateway`, `OpenAI-compatible`, `Routing`, `Multi-provider`
+* **Verified Link:** https://openrouter.ai
+
+### Together AI
+* **Icon:** ![Together AI Icon](https://avatars.githubusercontent.com/u/109101822?s=128&v=4)
+* **Official Domain:** `together.ai`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Serverless and dedicated-GPU inference plus fine-tuning for open-weight LLMs, image, and embedding models behind an OpenAI-compatible API.
+* **Pricing & Free Classification:** paid
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Serverless Inference`, `Fine-tuning`, `Open Models`, `Dedicated GPUs`
+* **Verified Link:** https://www.together.ai
+
+### Groq
+* **Icon:** ![Groq Icon](https://avatars.githubusercontent.com/u/7464134?s=128&v=4)
+* **Official Domain:** `groq.com`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** GroqCloud serves open-weight models behind OpenAI-compatible endpoints on Groq's LPU hardware; it still offers fast inference on open-weight models such as Llama, Qwen, and GPT-OSS after Nvidia's licensing deal.
+* **Pricing & Free Classification:** free_tier
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `LPU`, `Low Latency`, `OpenAI-compatible`, `Open Models`
+* **Verified Link:** https://groq.com
+
+### Replicate
+* **Icon:** ![Replicate Icon](https://avatars.githubusercontent.com/u/60410876?s=128&v=4)
+* **Official Domain:** `replicate.com`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Pay-per-use API for running open and community models (image, video, audio, LLM), packaged as Cog containers and invoked as predictions over HTTP.
+* **Pricing & Free Classification:** paid
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Cog`, `Model Hosting`, `Image/Video`, `Predictions API`
+* **Verified Link:** https://replicate.com
+
+### DeepInfra
+* **Icon:** ![DeepInfra Icon](https://avatars.githubusercontent.com/u/116928265?s=128&v=4)
+* **Official Domain:** `deepinfra.com`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Serverless inference API for open-weight text, embedding, image, and speech models with OpenAI-compatible endpoints and per-token billing.
+* **Pricing & Free Classification:** paid
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Serverless`, `Open Models`, `Embeddings`, `OpenAI-compatible`
+* **Verified Link:** https://deepinfra.com
+
+### Fireworks AI
+* **Icon:** ![Fireworks AI Icon](https://avatars.githubusercontent.com/u/106857749?s=128&v=4)
+* **Official Domain:** `fireworks.ai`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Inference platform offering serverless and dedicated endpoints for open models, with function calling, structured output, and fine-tuning.
+* **Pricing & Free Classification:** paid
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Serverless Inference`, `Function Calling`, `Fine-tuning`, `JSON Mode`
+* **Verified Link:** https://fireworks.ai
+
+### Cerebras Inference
+* **Icon:** ![Cerebras Icon](https://avatars.githubusercontent.com/u/19580083?s=128&v=4)
+* **Official Domain:** `cerebras.ai`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Hosted inference on Cerebras wafer-scale hardware for open-weight LLMs, exposed through an OpenAI-compatible chat-completions API.
+* **Pricing & Free Classification:** free_tier
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Wafer-scale`, `Low Latency`, `Open Models`, `OpenAI-compatible`
+* **Verified Link:** https://www.cerebras.ai
+
+### fal
+* **Icon:** ![fal Icon](https://avatars.githubusercontent.com/u/74778219?s=128&v=4)
+* **Official Domain:** `fal.ai`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Serverless inference for generative media models (image, video, audio, 3D) with queue-based async endpoints and client SDKs.
+* **Pricing & Free Classification:** paid
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Generative Media`, `Serverless GPUs`, `Async Queue`, `SDK`
+* **Verified Link:** https://fal.ai
+
+### Hugging Face Inference Providers
+* **Icon:** ![Hugging Face Icon](https://avatars.githubusercontent.com/u/25720743?s=128&v=4)
+* **Official Domain:** `huggingface.co`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Unified API that routes Hugging Face Hub model calls to partner inference providers using a single Hugging Face access token.
+* **Pricing & Free Classification:** free_tier
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Model Hub`, `Provider Routing`, `OpenAI-compatible`, `Serverless`
+* **Verified Link:** https://huggingface.co/docs/inference-providers
+
+### Google AI Studio (Gemini API)
+* **Icon:** ![Google AI Studio Icon](https://avatars.githubusercontent.com/u/1342004?s=128&v=4)
+* **Official Domain:** `aistudio.google.com`
+* **Category:** AI APIs & Hosted Inference
+* **Resource Type:** api
+* **Description:** Web playground and API-key console for the Gemini API, providing hosted multimodal generation, embeddings, and tool calling.
+* **Pricing & Free Classification:** free_tier
+* **Signup Required:** Yes
+* **Local Execution / Self-Hostable:** No
+* **Technical Tags:** `Gemini API`, `Multimodal`, `Playground`, `Function Calling`
+* **Verified Link:** https://aistudio.google.com
+
+## Category 4: Frameworks, Runtimes & Local Stacks (10)
+
+### Ollama
+* **Icon:** ![Ollama Icon](https://avatars.githubusercontent.com/u/151674099?s=128&v=4)
+* **Official Domain:** `ollama.com`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** local-runtime
+* **Description:** Local model runtime that pulls quantized models from a registry and serves them through a REST API and CLI, with Modelfile-based customization.
 * **Pricing & Free Classification:** open_source
 * **Signup Required:** No
 * **Local Execution / Self-Hostable:** Yes
-* **Technical Tags:** `ASR`, `Speech-to-Text`, `Multilingual`, `MIT License`
-* **Verified Link:** https://github.com/openai/whisper
+* **Technical Tags:** `Local LLM`, `GGUF`, `REST API`, `Modelfile`
+* **Verified Link:** https://ollama.com
 
-## Caveats on items 1–25
+### vLLM
+* **Icon:** ![vLLM Icon](https://avatars.githubusercontent.com/u/136984999?s=128&v=4)
+* **Official Domain:** `vllm.ai`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** framework
+* **Description:** High-throughput LLM serving engine using PagedAttention and continuous batching, exposing an OpenAI-compatible server on GPU and accelerator hardware.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Inference Server`, `PagedAttention`, `Continuous Batching`, `OpenAI-compatible`
+* **Verified Link:** https://vllm.ai
 
-- **Llama's status is murky.** The latest open weights are still Llama 4 (April 2025). Meta's newer releases are appearing under the "Muse" name, and sources conflict on which of those are open. I listed Llama as the family rather than guessing a successor.
-- **GitHub Copilot's icon is the GitHub mark.** It lives on `github.com`, so the favicon service returns the parent brand's icon.
-- **Phi's icon is Microsoft's avatar.** It has no separate GitHub org.
-- **Gated downloads:** Llama, Gemma, and some Stable Diffusion and FLUX checkpoints require accepting a license on Hugging Face before download. That's why those entries say "Signup Required: Yes", while Qwen, DeepSeek, Phi, gpt-oss, and Whisper download without it.
-- **FLUX and Mistral licensing is per checkpoint.** Some FLUX.1 weights carry a non-commercial license, and not every Mistral model is open-weight.
+### LM Studio
+* **Icon:** ![LM Studio Icon](https://avatars.githubusercontent.com/u/133744619?s=128&v=4)
+* **Official Domain:** `lmstudio.ai`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** local-runtime
+* **Description:** Desktop app for downloading and chatting with local LLMs (GGUF and MLX) that also runs a local OpenAI-compatible server.
+* **Pricing & Free Classification:** free_local
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Desktop App`, `GGUF`, `MLX`, `Local Server`
+* **Verified Link:** https://lmstudio.ai
 
-**Should I continue with items 26–50?** The remaining 25 are:
-- AI APIs & Hosted Inference (10)
-- Frameworks, Runtimes & Local Stacks (10)
-- Agents & Workflow Automation (5)
+### llama.cpp
+* **Icon:** ![llama.cpp Icon](https://avatars.githubusercontent.com/u/134263123?s=128&v=4)
+* **Official Domain:** `github.com/ggml-org`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** local-runtime
+* **Description:** C/C++ inference engine for GGUF-quantized models across CPU and many GPU backends, including a built-in `llama-server` HTTP endpoint.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `GGUF`, `Quantization`, `CPU Inference`, `C++`
+* **Verified Link:** https://github.com/ggml-org/llama.cpp
 
-For those, I can use GitHub avatars as the primary asset wherever a repo exists, which verified cleanly here. Say the word if you'd like any of the 25 above swapped, such as replacing Lovable with Pika or Kling, before I proceed.
+### LangChain
+* **Icon:** ![LangChain Icon](https://avatars.githubusercontent.com/u/126733545?s=128&v=4)
+* **Official Domain:** `langchain.com`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** framework
+* **Description:** Python and JavaScript framework for composing LLM applications from model wrappers, tools, retrievers, and agent graphs (via LangGraph).
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Orchestration`, `RAG`, `Agents`, `LangGraph`
+* **Verified Link:** https://www.langchain.com
+
+### LlamaIndex
+* **Icon:** ![LlamaIndex Icon](https://avatars.githubusercontent.com/u/130722866?s=128&v=4)
+* **Official Domain:** `llamaindex.ai`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** framework
+* **Description:** Data framework for retrieval-augmented generation that handles document ingestion, indexing, query engines, and agent workflows over private data.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `RAG`, `Indexing`, `Document Parsing`, `Agents`
+* **Verified Link:** https://www.llamaindex.ai
+
+### Hugging Face Transformers
+* **Icon:** ![Hugging Face Transformers Icon](https://avatars.githubusercontent.com/u/25720743?s=128&v=4)
+* **Official Domain:** `huggingface.co`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** framework
+* **Description:** Python library defining and running pretrained text, vision, audio, and multimodal models with PyTorch, supporting inference and fine-tuning.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `PyTorch`, `Model Hub`, `Fine-tuning`, `Pipelines`
+* **Verified Link:** https://huggingface.co/docs/transformers
+
+### Open WebUI
+* **Icon:** ![Open WebUI Icon](https://avatars.githubusercontent.com/u/158137808?s=128&v=4)
+* **Official Domain:** `openwebui.com`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** local-runtime
+* **Description:** Self-hosted web interface for Ollama and OpenAI-compatible backends with built-in RAG, multi-user auth, and tool/function support.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Optional via Docker
+* **Technical Tags:** `Chat UI`, `RAG`, `Self-hosted`, `Multi-user`
+* **Verified Link:** https://openwebui.com
+
+### ComfyUI
+* **Icon:** ![ComfyUI Icon](https://avatars.githubusercontent.com/u/166579949?s=128&v=4)
+* **Official Domain:** `comfy.org`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** local-runtime
+* **Description:** Node-graph engine for building and running diffusion image, video, and audio workflows locally, with an extensible custom-node ecosystem.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Node Graph`, `Diffusion`, `Workflows`, `Custom Nodes`
+* **Verified Link:** https://www.comfy.org
+
+### Unsloth
+* **Icon:** ![Unsloth Icon](https://avatars.githubusercontent.com/u/150920049?s=128&v=4)
+* **Official Domain:** `unsloth.ai`
+* **Category:** Frameworks, Runtimes & Local Stacks
+* **Resource Type:** framework
+* **Description:** Library for faster, lower-VRAM LLM fine-tuning and reinforcement learning (LoRA/QLoRA), plus exporting trained models to GGUF.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Fine-tuning`, `QLoRA`, `Low VRAM`, `GGUF Export`
+* **Verified Link:** https://unsloth.ai
+
+## Category 5: Agents & Workflow Automation (5)
+
+### n8n
+* **Icon:** ![n8n Icon](https://avatars.githubusercontent.com/u/45487711?s=128&v=4)
+* **Official Domain:** `n8n.io`
+* **Category:** Agents & Workflow Automation
+* **Resource Type:** agent
+* **Description:** Node-based workflow automation platform with hundreds of integrations and AI agent nodes, running self-hosted or on n8n's cloud.
+* **Pricing & Free Classification:** free_local
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Optional via Docker
+* **Technical Tags:** `Workflow Automation`, `AI Agent Nodes`, `Webhooks`, `Fair-code`
+* **Verified Link:** https://n8n.io
+
+### Flowise
+* **Icon:** ![Flowise Icon](https://avatars.githubusercontent.com/u/128289781?s=128&v=4)
+* **Official Domain:** `flowiseai.com`
+* **Category:** Agents & Workflow Automation
+* **Resource Type:** agent
+* **Description:** Open-source low-code visual builder for LLM chatflows and multi-agent flows, with a drag-and-drop canvas and REST API for deployment.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Optional via Docker
+* **Technical Tags:** `Low-code`, `Visual Builder`, `RAG`, `Multi-agent`
+* **Verified Link:** https://flowiseai.com
+
+### Dify
+* **Icon:** ![Dify Icon](https://avatars.githubusercontent.com/u/127165244?s=128&v=4)
+* **Official Domain:** `dify.ai`
+* **Category:** Agents & Workflow Automation
+* **Resource Type:** agent
+* **Description:** LLM application platform combining a visual workflow builder, RAG pipeline, agent tooling, and observability, deployable via Docker or Dify Cloud.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Optional via Docker
+* **Technical Tags:** `Workflow Builder`, `RAG Pipeline`, `Agents`, `LLMOps`
+* **Verified Link:** https://dify.ai
+
+### CrewAI
+* **Icon:** ![CrewAI Icon](https://avatars.githubusercontent.com/u/170677839?s=128&v=4)
+* **Official Domain:** `crewai.com`
+* **Category:** Agents & Workflow Automation
+* **Resource Type:** agent
+* **Description:** Python framework for orchestrating role-based multi-agent crews with defined tasks, tools, and event-driven flows.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Yes
+* **Technical Tags:** `Multi-agent`, `Orchestration`, `Python`, `Flows`
+* **Verified Link:** https://www.crewai.com
+
+### AutoGPT
+* **Icon:** ![AutoGPT Icon](https://avatars.githubusercontent.com/u/130738209?s=128&v=4)
+* **Official Domain:** `agpt.co`
+* **Category:** Agents & Workflow Automation
+* **Resource Type:** agent
+* **Description:** Platform for building, deploying, and running continuous AI agents with a low-code block builder, supporting both self-hosting and hosted deployment.
+* **Pricing & Free Classification:** open_source
+* **Signup Required:** No
+* **Local Execution / Self-Hostable:** Optional via Docker
+* **Technical Tags:** `Autonomous Agents`, `Low-code Builder`, `Marketplace`, `Self-hosted`
+* **Verified Link:** https://agpt.co
